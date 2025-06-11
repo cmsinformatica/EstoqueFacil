@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciamento de Inventário</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { // Blue theme
+              DEFAULT: '#3B82F6', // blue-500
+              light: '#60A5FA',   // blue-400
+              dark: '#2563EB',    // blue-600
+            },
+            secondary: { // Emerald - used for specific accents if needed, less prominent now
+              DEFAULT: '#10B981', // emerald-500
+            },
+            accent: { // Amber - for other highlights
+              DEFAULT: '#F59E0B', // amber-500
+            },
+            neutral: {
+              light: '#F3F4F6', // gray-100
+              DEFAULT: '#6B7280', // gray-500
+              dark: '#1F2937',   // gray-800
+            }
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-neutral-light">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
