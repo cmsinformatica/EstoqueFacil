@@ -1,0 +1,6 @@
+
+{
+  "name": "Inventory Management System",
+  "description": "Uma aplicação web local para gerenciamento de inventário de produtos, incluindo cadastro, alterações, exclusão e rastreamento de saídas de produtos vinculadas a pessoas.",
+  "requestFramePermissions": []
+}
